@@ -11,12 +11,12 @@ const Sidebar = () => (
       <img src={LogoT2} alt="Tyler's Coding Logo"></img>
     </Link>
     <nav>
-      <NavLink exact="true" activeClassname="active" to="/">
+      <NavLink exact="true" activeclassname="active" to="/">
         <FontAwesomeIcon icon={faHome} color="white" />
       </NavLink>
       <NavLink
         exact="true"
-        activeClassname="active"
+        activeclassname="active"
         className="about-link"
         to="/about"
       >
@@ -24,7 +24,7 @@ const Sidebar = () => (
       </NavLink>
       <NavLink
         exact="true"
-        activeClassname="active"
+        activeclassname="active"
         className="contact-link"
         to="/contact"
       >
@@ -33,12 +33,20 @@ const Sidebar = () => (
     </nav>
     <ul>
       <li>
-        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/tylercodes/"
+        >
           <FontAwesomeIcon icon={faLinkedin} color="white" />
         </a>
       </li>
       <li>
-        <a target="_blank" rel="noreferrer" href="https://www.github.com">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/TylerSmith2614"
+        >
           <FontAwesomeIcon icon={faGithub} color="white" />
         </a>
       </li>
