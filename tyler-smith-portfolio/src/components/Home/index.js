@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import LogoT3 from '../../assets/images/LogoT3.png'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import TylersLogo from './Logo'
+import Loader from 'react-loaders'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -32,13 +34,12 @@ const Home = () => {
     'r',
     'e',
     ' ',
-    'D',
+    'E',
+    'n',
+    'g',
+    'i',
+    'n',
     'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
     'e',
     'r',
     '.',
@@ -88,36 +89,42 @@ const Home = () => {
   const buildArrayStartIdx = descArrayStartIdx + descArray.length
 
   return (
-    <div className="container home-page">
-      <div className="text-zone">
-        <h1>
-          <span className={`${letterClass} _11`}>H</span>
-          <span className={`${letterClass} _12`}>i,</span>
-          <br />
-          <span className={`${letterClass} _13`}>I</span>
-          <span className={`${letterClass} _14`}>'m</span>
-          <img src={LogoT3} alt="T logo" />
-          <AnimatedLetters
-            letterClass={letterClass}
-            strArray={nameArray}
-            idx={nameArrayStartIdx}
-          />
-          <br />
-          <AnimatedLetters
-            letterClass={letterClass}
-            strArray={descArray}
-            idx={descArrayStartIdx}
-          />
-          <br />{' '}
-          <AnimatedLetters
-            letterClass={letterClass}
-            strArray={buildArray}
-            idx={buildArrayStartIdx}
-          />
-        </h1>
+    <>
+      <div className="container home-page">
+        <div className="text-zone">
+          <h1>
+            <span className={`${letterClass} _11`}>H</span>
+            <span className={`${letterClass} _12`}>i,</span>
+            <br />
+            <span className={`${letterClass} _13`}>I</span>
+            <span className={`${letterClass} _14`}>'m</span>
+            <img src={LogoT3} alt="T logo" />
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={nameArray}
+              idx={nameArrayStartIdx}
+            />
+            <br />
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={descArray}
+              idx={descArrayStartIdx}
+            />
+            <br />{' '}
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={buildArray}
+              idx={buildArrayStartIdx}
+            />
+          </h1>
+          <Link to="/contact" className="contact-button">
+            CONTACT ME
+          </Link>
+        </div>
+        <TylersLogo />
       </div>
-      <TylersLogo />
-    </div>
+      <Loader type="ball-pulse-rise" />
+    </>
   )
 }
 

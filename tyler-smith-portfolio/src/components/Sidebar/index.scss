@@ -1,6 +1,6 @@
 .nav-bar {
   background: black;
-  width: 120px;
+  width: 100px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -14,7 +14,7 @@
     img {
       display: block;
       margin: 8px auto;
-      width: 125px;
+      width: 100px;
       height: auto;
     }
   }
@@ -91,7 +91,11 @@
         content: 'MY PORTFOLIO';
       }
     }
-
+    a.resume-link {
+      &:after {
+        content: 'MY RESUME';
+      }
+    }
     a.active {
       svg {
         color: #21e3df;
