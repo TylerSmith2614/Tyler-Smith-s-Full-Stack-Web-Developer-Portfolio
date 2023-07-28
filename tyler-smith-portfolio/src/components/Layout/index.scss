@@ -64,11 +64,12 @@
       }
     }
 
-    ul li:before {
+    .coding-skills li:before {
       content: "✓";
       padding-right: 5px;
 
     }
+
   .text-zone {
     position: absolute;
     left: 10%;

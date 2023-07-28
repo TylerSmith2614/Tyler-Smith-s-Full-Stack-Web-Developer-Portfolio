@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import LogoT3 from '../../assets/images/LogoT3.png'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
-import TylersLogo from './Logo'
 import Loader from 'react-loaders'
 
 const Home = () => {
@@ -117,11 +116,10 @@ const Home = () => {
               idx={buildArrayStartIdx}
             />
           </h1>
-          <Link to="/contact" className="contact-button">
+          <Link to="/contact" className="button">
             CONTACT ME
           </Link>
         </div>
-        <TylersLogo />
       </div>
       <Loader type="ball-pulse-rise" />
     </>

@@ -53,8 +53,10 @@ const AboutMe = () => {
             I have completed a Full Stack Coding Bootcamp at the University of
             Denver and have built projects using:
           </p>
-          <ul>
-            <li>Computer Science applied to JavaScript</li>
+          <ul className="coding-skills">
+            <li>
+              Computer Science applied to JavaScript
+            </li>
             <li>Browser Based Technologies (HTML, CSS, JavaScript, jQuery)</li>
             <li>Databases (MySQL, MongoDB)</li>
             <li>Deployment (Heroku, Git)</li>
