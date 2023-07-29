@@ -1,0 +1,46 @@
+{
+  "portfolio": [
+      {
+          "cover": "/portfolio/SportsSensei.png",
+          "title": "GGWP",
+          "description": "React, JSX, Tailwind, Jest",
+          "deployedUrl": "http://google.com",
+          "githubRepoUrl": "http://google.com"
+      },
+      {
+          "cover": "/portfolio/WebAPIQuiz.png",
+          "title": "GGWP",
+          "description": "React, JSX, Tailwind, Jest",
+          "deployedUrl": "http://google.com",
+          "githubRepoUrl": "http://google.com"
+      },
+      {
+          "cover": "/portfolio/1/one.png",
+          "title": "GGWP",
+          "description": "React, JSX, Tailwind, Jest",
+          "deployedUrl": "http://google.com",
+          "githubRepoUrl": "http://google.com"
+      },
+      {
+          "cover": "/portfolio/1/one.png",
+          "title": "GGWP",
+          "description": "React, JSX, Tailwind, Jest",
+          "deployedUrl": "http://google.com",
+          "githubRepoUrl": "http://google.com"
+      },
+      {
+          "cover": "/portfolio/1/one.png",
+          "title": "GGWP",
+          "description": "React, JSX, Tailwind, Jest",
+          "deployedUrl": "http://google.com",
+          "githubRepoUrl": "http://google.com"
+      },
+      {
+        "cover": "/portfolio/1/one.png",
+        "title": "GGWP",
+        "description": "React, JSX, Tailwind, Jest",
+        "deployedUrl": "http://google.com",
+        "githubRepoUrl": "http://google.com"
+    }
+  ]
+}
