@@ -1,46 +1,53 @@
 {
   "portfolio": [
+    {
+        "cover": "/portfolio/VV.png",
+        "title": "Visionary Vault",
+        "description": "React, GraphQL, MongoDB, Mongoose ODM, Apollo Server, Javascript, JWT",
+        "deployedUrl": "https://visionary-vault-0d00f00f3245.herokuapp.com/",
+        "githubRepoUrl": "https://github.com/kitdhing/visionaryvault"
+    },
       {
           "cover": "/portfolio/SportsSensei.png",
-          "title": "GGWP",
-          "description": "React, JSX, Tailwind, Jest",
-          "deployedUrl": "http://google.com",
-          "githubRepoUrl": "http://google.com"
+          "title": "Sports Sensei",
+          "description": "Node.js, Express.js, MySQL2, Sequelize ORM, Bcrypt, Twilio, Heroku, Javascript",
+          "deployedUrl": "https://group-1-project-2.herokuapp.com/login",
+          "githubRepoUrl": "https://github.com/BizTheHabesha/group-1-project-2"
+      },
+      {
+          "cover": "/portfolio/recipeLottery.png",
+          "title": "Recipe Lottery",
+          "description": "Javascript, Jquery, Third Party APIs, Bulma, CSS, HTML",
+          "deployedUrl": "https://catherinelillianjohnson.github.io/project-one/",
+          "githubRepoUrl": "https://github.com/catherinelillianjohnson/project-one"
       },
       {
           "cover": "/portfolio/WebAPIQuiz.png",
-          "title": "GGWP",
-          "description": "React, JSX, Tailwind, Jest",
-          "deployedUrl": "http://google.com",
-          "githubRepoUrl": "http://google.com"
+          "title": "Web API Quiz",
+          "description": "Javascript, CSS, HTML",
+          "deployedUrl": "https://tylersmith2614.github.io/Web-APIs-Challenge-Code-Quiz/index.html",
+          "githubRepoUrl": "https://github.com/TylerSmith2614/Web-APIs-Challenge-Code-Quiz"
       },
       {
-          "cover": "/portfolio/1/one.png",
-          "title": "GGWP",
-          "description": "React, JSX, Tailwind, Jest",
-          "deployedUrl": "http://google.com",
-          "githubRepoUrl": "http://google.com"
+          "cover": "/portfolio/WeatherDashboard.png",
+          "title": "Weather Dashboard",
+          "description": "Javascript, CSS, HTML, Third Party API, localStorage",
+          "deployedUrl": "https://tylersmith2614.github.io/Weather-Dashboard/",
+          "githubRepoUrl": "https://github.com/TylerSmith2614/Weather-Dashboard"
       },
       {
-          "cover": "/portfolio/1/one.png",
-          "title": "GGWP",
-          "description": "React, JSX, Tailwind, Jest",
-          "deployedUrl": "http://google.com",
-          "githubRepoUrl": "http://google.com"
+          "cover": "/portfolio/WorkDayScheduler.png",
+          "title": "Work Day Scheduler",
+          "description": "Javascsript, JQuery, Day.js, CSS, HTML",
+          "deployedUrl": "https://tylersmith2614.github.io/Work-Day-Scheduler/",
+          "githubRepoUrl": "https://github.com/TylerSmith2614/Work-Day-Scheduler"
       },
       {
-          "cover": "/portfolio/1/one.png",
-          "title": "GGWP",
-          "description": "React, JSX, Tailwind, Jest",
-          "deployedUrl": "http://google.com",
-          "githubRepoUrl": "http://google.com"
-      },
-      {
-        "cover": "/portfolio/1/one.png",
-        "title": "GGWP",
-        "description": "React, JSX, Tailwind, Jest",
-        "deployedUrl": "http://google.com",
-        "githubRepoUrl": "http://google.com"
+        "cover": "/portfolio/SQLEmployeeTracker.png",
+        "title": "SQL: Employee Tracker",
+        "description": "MySql2, Node.js, Inquirer, Insomnia, Javascript",
+        "deployedUrl": "https://drive.google.com/file/d/17SmdxqiEDepLXU_X0NgNx8pUyGoTh4uS/view",
+        "githubRepoUrl": "https://github.com/TylerSmith2614/MY-SQL-Employee-Tracker-Challenge"
     }
   ]
 }

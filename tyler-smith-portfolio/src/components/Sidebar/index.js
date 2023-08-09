@@ -4,8 +4,17 @@ import { Link, NavLink } from 'react-router-dom'
 import LogoT2 from '../../assets/images/LogoT2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faHome, faUser, faEye, faFile } from '@fortawesome/free-solid-svg-icons'
-const Sidebar = () => (
+import {
+  faBars,
+  faEnvelope,
+  faHome,
+  faUser,
+  faEye,
+  faFile,
+} from '@fortawesome/free-solid-svg-icons'
+const Sidebar = () => {
+
+  return (
   <div className="nav-bar">
     <Link className="logo" to="/">
       <img src={LogoT2} alt="Tyler's Coding Logo"></img>
@@ -67,7 +76,14 @@ const Sidebar = () => (
         </a>
       </li>
     </ul>
+    <FontAwesomeIcon
+      icon={faBars}
+      color="#21e3df"
+      size="3x"
+      className="menu-bars"
+    />
   </div>
-)
+  )
+}
 
 export default Sidebar

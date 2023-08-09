@@ -2,20 +2,7 @@
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
 }
-.page::before {
-  content: "";
-background-image: url('../../assets/images/codingbackground.jpg');
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: absolute;
-top: 0px;
-right: 0px;
-bottom: 0px;
-left: 0px;
-opacity: 0.2;
-}
+
 
 
 
@@ -23,7 +10,7 @@ opacity: 0.2;
   .text-zone {
     position: absolute;
     left: 10%;
-    top: 20%;
+    top: 30%;
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;

@@ -1,0 +1,48 @@
+.page{
+  margin: 0;
+  font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+}
+.page::before {
+  content: "";
+background-image: url('../../assets/images/codingbackground.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+opacity: 0.2;
+}
+
+.resumeTitle {
+  color: #21e3df;
+  font-size: 56px;
+  line-height: 53px;
+  margin: 0;
+  font-family: 'Coolvetica';
+  font-weight: 550;
+  white-space: nowrap;
+  line-height: 50pt;
+  animation: fadeIn 1s 1.7s backwards;
+}
+.resume-page {
+  overflow: auto;
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 75%;
+    max-height: 90%;
+    opacity: 1;
+
+  }
+  }
+
+.resumeImage{
+  margin-top: 5%;
+  width: 75%;
+}
