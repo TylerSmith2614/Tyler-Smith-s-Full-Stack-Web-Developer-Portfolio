@@ -31,6 +31,13 @@ const Resume = () => {
               idx={nameArrayStartIdx}
             />
           </h1>
+          <div className="resume-div">
+            <a href={resumeImage} download="Tyler's Resume" target="_blank">
+              <button type="button" class="resume-button">
+                Download Resume
+              </button>
+            </a>
+          </div>
           <img className="resumeImage" src={resumeImage} alt="resume" />
         </div>
       </div>

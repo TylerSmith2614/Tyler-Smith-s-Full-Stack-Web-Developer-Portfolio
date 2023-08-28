@@ -35,7 +35,7 @@ const AboutMe = () => {
               strArray={['A', 'b', 'o', 'u', 't', ` `, 'M', 'e']}
               idx={15}
             />
-            <img className="face" src={tylerPic} alt="T logo" />
+            <img className="tyler" src={tylerPic} alt="T logo" />
           </h1>
           <p>
             I am a Jr. Software Engineer excited to join a team and work on

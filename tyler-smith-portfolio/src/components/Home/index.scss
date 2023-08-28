@@ -55,3 +55,74 @@ h1 img {
 
 }
 }
+
+
+  
+
+@media screen and (max-width:1000px) {
+.home-page {
+  max-width: 100%;
+    overflow-x: hidden;
+
+.text-zone{
+  width: 85%;
+
+}
+
+    h1 {
+      font-size: 4vw; /* Adjust the font size as needed */
+      width: 100%;
+      white-space: pre-line;
+
+
+    }
+
+
+}
+}
+
+
+
+@media screen and (max-width:450px) {
+  .home-page {
+    max-width: 100%;
+      overflow-x: hidden;
+  
+  .text-zone{
+    width: 100%;
+    left: 5%;
+  }
+  
+      h1 {
+        font-size: 4vw; /* Adjust the font size as needed */
+        width: 98%;
+        white-space: pre-line;
+  
+  
+      }
+  
+  
+  }
+  }
+
+  @media screen and (max-width:376px) {
+    .home-page {
+      max-width: 100%;
+        overflow-x: hidden;
+    
+    .text-zone{
+      width: 90%;
+      left: 5%;
+    }
+    
+        h1 {
+          font-size: 4vw; /* Adjust the font size as needed */
+          width: 100%;
+          white-space: pre-line;
+    
+    
+        }
+    
+    
+    }
+    }

@@ -90,10 +90,11 @@ textarea {
 .info-map {
   position: absolute;
   background: #000;
-  top: 10px;
-  right: 20%;
+  top: 5px;
+  right: 10%;
   z-index: 999999;
-  width: 200px;
+  width: 160px;
+  height: 100px;
   padding: 20px;
   color: #fff;
   font-family: 'Helvetica';
@@ -105,7 +106,7 @@ textarea {
 }
 
 .info-map span {
-  font-size: 16px;
+  font-size: 13px;
   display: block;
   padding-top: 20px;
   color: #21e3df;

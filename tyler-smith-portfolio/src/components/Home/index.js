@@ -111,6 +111,7 @@ const Home = () => {
             />
             <br />{' '}
             <AnimatedLetters
+            className="line"
               letterClass={letterClass}
               strArray={buildArray}
               idx={buildArrayStartIdx}

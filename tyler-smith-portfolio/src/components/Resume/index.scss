@@ -46,3 +46,29 @@ opacity: 0.2;
   margin-top: 5%;
   width: 75%;
 }
+
+.resume-button {
+  color: #21e3df;
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 1px solid #21e3df;
+  margin-top: 25px;
+  float: left;
+  animation: fadeInAnimation 1s 1.8s backwards;
+  white-space: nowrap;
+
+  &:hover {
+    background: #21e3df;
+    color: white;
+
+}
+}
+
+.resume-div {
+ float:inline-start;
+}
