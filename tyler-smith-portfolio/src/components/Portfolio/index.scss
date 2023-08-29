@@ -117,3 +117,42 @@
       }
   }
 }
+
+
+
+@media screen and (max-width: 1000px){
+    .portfolio-page{
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+  
+        h1.page-title {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .image-box {
+            flex: 1 1 calc(33.33% - 10px); // Adjust the flex-basis for 3 boxes in a row
+            height: 40vh;
+            max-width: calc(33.33% - 10px); // Adjust the max-width for 3 boxes in a row
+            font-size: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .title {
+                font-size: 22px;
+            }
+            .description {
+                margin-top: 0px;
+                font-size: 12px;
+            }
+            .btn {
+                width: 100%;
+                font-size: 12px;
+            }
+        }
+   
+      
+    }
+}

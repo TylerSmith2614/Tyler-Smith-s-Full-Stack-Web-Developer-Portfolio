@@ -27,7 +27,6 @@
     font-family: 'Coolvetica';
     font-weight: 550;
     white-space: nowrap;
-    line-height: 50pt;
     animation: fadeIn 1s 1.7s backwards;
 }
 
@@ -70,7 +69,7 @@ h1 img {
 }
 
     h1 {
-      font-size: 4vw; /* Adjust the font size as needed */
+      font-size: 7.5vw; /* Adjust the font size as needed */
       width: 100%;
       white-space: pre-line;
 
@@ -89,14 +88,14 @@ h1 img {
       overflow-x: hidden;
   
   .text-zone{
-    width: 100%;
+    width: 85%;
     left: 5%;
   }
   
       h1 {
-        font-size: 4vw; /* Adjust the font size as needed */
+        font-size: 8vw; 
         width: 98%;
-        white-space: pre-line;
+        white-space:inherit;
   
   
       }
@@ -116,7 +115,7 @@ h1 img {
     }
     
         h1 {
-          font-size: 4vw; /* Adjust the font size as needed */
+          font-size: 5.5vw; /* Adjust the font size as needed */
           width: 100%;
           white-space: pre-line;
     

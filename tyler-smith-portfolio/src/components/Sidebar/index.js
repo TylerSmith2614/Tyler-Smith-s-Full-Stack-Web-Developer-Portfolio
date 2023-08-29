@@ -23,7 +23,12 @@ const Sidebar = () => {
         <img src={LogoT2} alt="Tyler's Coding Logo"></img>
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
-        <NavLink exact="true" activeclassname="active" to="/">
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          to="/"
+          onClick={() => setShowNav(false)}
+        >
           <FontAwesomeIcon icon={faHome} color="white" />
         </NavLink>
         <NavLink
@@ -31,6 +36,7 @@ const Sidebar = () => {
           activeclassname="active"
           className="about-link"
           to="/about"
+          onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faUser} color="white" />
         </NavLink>
@@ -39,6 +45,7 @@ const Sidebar = () => {
           activeclassname="active"
           className="contact-link"
           to="/contact"
+          onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faEnvelope} color="white" />
         </NavLink>
@@ -47,6 +54,7 @@ const Sidebar = () => {
           activeclassname="active"
           className="portfolio-link"
           to="/portfolio"
+          onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faEye} color="white" />
         </NavLink>
@@ -55,6 +63,7 @@ const Sidebar = () => {
           activeclassname="active"
           className="resume-link"
           to="/resume"
+          onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faFile} color="white" />
         </NavLink>
